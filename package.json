@@ -1,0 +1,24 @@
+{
+  "name": "highest-volatility-assets",
+  "version": "1.0.0",
+  "description": "Script to fetch the highest volatility assets from CoinGecko",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "cryptocurrency",
+    "coingecko",
+    "volatility",
+    "assets"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "node-fetch": "^3.3.1",
+    "node.js": "^0.0.1-security",
+    "request": "^2.88.2"
+  }
+}
